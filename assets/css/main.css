@@ -1,0 +1,14 @@
+#banner-section{
+    text-align: center;
+}
+.img-fluid-custom{
+    vertical-align: middle;
+    height: 600px;
+    width: auto;
+}
+.project-btn a{
+    text-decoration: none;
+    color: #135445;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
