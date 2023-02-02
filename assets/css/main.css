@@ -1,18 +1,78 @@
-#banner-section{
+#banner-section {
     text-align: center;
 }
-.img-fluid-custom{
+
+.img-fluid-custom {
     vertical-align: middle;
     height: 600px;
     width: auto;
 }
-.project-btn a{
+
+.project-btn a {
     text-decoration: none;
     color: #135445;
     text-transform: capitalize;
     font-size: 1.5rem;
 }
-#about-section{
+
+#about-section {
     background-color: #08100E;
     color: #fff;
+}
+
+footer {
+    background-color: #135445;
+    padding-top: 53px;
+}
+
+.call-to-action {
+    background-color: #ffffff;
+    color: #fff;
+    position: relative;
+    top: 60px;
+    left: 5px;
+    padding-top: 30px 20px;
+    box-shadow: -7px 12px 60px 6px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: -7px 12px 60px 6px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -7px 12px 60px 6px rgba(0, 0, 0, 0.44);
+}
+
+.access-colored {
+    color: #06261F
+}
+
+#clients {
+    padding: 60px 0;
+
+}
+
+#clients .clients-wrap {
+    border-top: 1px solid #d6eaff;
+    border-left: 1px solid #d6eaff;
+    margin-bottom: 30px;
+}
+
+#clients .client-logo {
+    padding: 64px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 1px solid #d6eaff;
+    border-bottom: 1px solid #d6eaff;
+    overflow: hidden;
+    background: #fff;
+    height: 160px;
+}
+
+#clients img {
+    transition: all 0.4s ease-in-out;
 }

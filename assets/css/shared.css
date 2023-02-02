@@ -15,18 +15,51 @@ body {
     color: #212529;
     background-color: #fff;
 }
-#header-section{
+
+#header-section {
     padding: 30px;
 }
-.navbar-scrolled{
+
+.navbar-scrolled {
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
 }
-.navbar{
-    transition:all 0.2s ease;
+
+.navbar {
+    transition: all 0.2s ease;
     padding: 49px 0 63px;
 
 }
-#banner-section{
+
+#banner-section {
     padding: 23px 23px;
+}
+
+#banner-section {
+    background-image: url("/assets/img/shape.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-item a:hover {
+    color: #135445;
+}
+
+.text-colored {
+    color: #135445;
+}
+
+.bg-custom {
+    background-image: url("/assets/img/project-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 500px;
 }
