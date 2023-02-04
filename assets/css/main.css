@@ -11,8 +11,17 @@
 .project-btn a {
     text-decoration: none;
     color: #135445;
-    text-transform: capitalize;
     font-size: 1.5rem;
+    background-color: #135445;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 #about-section {

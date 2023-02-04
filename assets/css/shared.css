@@ -36,14 +36,11 @@ body {
 }
 
 #banner-section {
-    background-image: url("/assets/img/shape.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
     flex-direction: column;
 }
 
@@ -62,4 +59,34 @@ body {
     position: relative;
     background-size: cover;
     height: 500px;
+}
+.project-btn{
+    background-color: #135445;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+.project-btn:hover{
+    background-color: white;
+    border: 1px solid #135445;
+
+}
+.mt-50{
+    margin-top: 70px;
+}
+#services{
+    background-color: #fdfdfd;
+}
+.nav-link{
+    color:#000000;
+}
+.nav-link:hover{
+    color:#212529;
 }
