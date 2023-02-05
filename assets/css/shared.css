@@ -90,3 +90,6 @@ body {
 .nav-link:hover{
     color:#212529;
 }
+.bg-gray{
+    background-color: #f8f9fa;
+}
