@@ -93,3 +93,18 @@ body {
 .bg-gray{
     background-color: #f8f9fa;
 }
+.btn-more{
+    text-decoration: none;
+    color: #135445;
+    border: 1px solid #135445;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn-more:hover{
+    padding: 10px 20px;
+    background-color: #135445;
+    color:#ffffff;
+    border-radius: 10px;
+
+}
