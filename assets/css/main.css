@@ -8,7 +8,7 @@
     width: auto;
 }
 
-.project-btn a {
+/* .project-btn a {
     text-decoration: none;
     color: #135445;
     font-size: 1.5rem;
@@ -22,7 +22,7 @@
     text-transform: uppercase;
     transition: all 0.2s ease;
     cursor: pointer;
-}
+} */
 
 #about-section {
     background-color: #08100E;
@@ -84,4 +84,10 @@ footer {
 
 #clients img {
     transition: all 0.4s ease-in-out;
+}
+.bg-head{
+    background-image: url("../img/banner-bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

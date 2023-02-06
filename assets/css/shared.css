@@ -27,8 +27,16 @@ body {
 
 .navbar {
     transition: all 0.2s ease;
-    padding: 49px 0 63px;
+    text-decoration: none;
+    color: black;
 
+}
+.navbar a span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a span:hover{
+    color: black
 }
 
 #banner-section {
@@ -76,6 +84,7 @@ body {
 .project-btn:hover{
     background-color: white;
     border: 1px solid #135445;
+    color: #135445;
 
 }
 .mt-50{
@@ -107,4 +116,30 @@ body {
     color:#ffffff;
     border-radius: 10px;
 
+}
+section.hero{
+    margin:5rem 0;
+}
+.text-label,
+.text-hero-bold,
+.text-hero-regular{
+    margin: 24px 0;
+}
+.text-label{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #135445;
+    line-height: 31px;
+}
+.text-hero-bold{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #212529;
+    line-height: 1.2;
+}
+.text-hero-regular{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.2;
 }
